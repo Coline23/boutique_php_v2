@@ -1,7 +1,14 @@
 <?php
-include 'functions.php';
 session_start();
+include 'functions.php';
+createCart();
 include 'head.php';
+
+//Vider le panier une fois qu'on retourne à l'accueil
+if (isset($_POST['validation_commande'])) {
+  emptyCart();
+}
+
 ?>
 
 <body>
@@ -10,9 +17,13 @@ include 'head.php';
     ?>
 
     <main>
-       <?php 
-       showArticles
+      <div class="container">
+         <div class="row">
+         <?php 
+       showArticles();
        ?>
+         </div>
+      </div>
     </main>
 
     <?php 

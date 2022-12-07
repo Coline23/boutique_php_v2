@@ -1,0 +1,107 @@
+
+/* GLOBAL *****************/
+html {
+    background-color: white;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-weight: 300;
+    line-height: 34px;
+}
+
+section {
+    padding: 30px 0 60px 0;
+}
+
+
+/* HEADER *****************/
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/img-header.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.container a img {
+    height: 90px;
+}
+
+.home-title .center-block {
+    text-align: center;
+}
+
+h1 {
+    font-size: 500%;
+    font-family: 'Rubik Distressed', cursive;
+    color: #E2C9BE;
+}
+
+.home-title h4 {
+    font-family: 'Caveat', cursive;
+    color: #E2C9BE;
+    font-size: 300%;
+}
+
+.home-title h2 {
+    font-size: 500%;
+    font-family: 'Patrick Hand', cursive; 
+    font-weight: 500;
+    color: #E2C9BE;
+    border: none;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: #E2C9BE;
+    font-size: 150%;
+    margin: 20px;
+    font-family: 'Patrick Hand', cursive; 
+}
+
+/* BOUTON ***************/
+
+.btn-full {
+    background-color: #59511E;
+    color: #E2C9BE;
+    margin-bottom: 15px;
+    font-family: 'Patrick Hand', cursive; 
+}
+
+.btn-ghost {
+    border: 1px solid wheat;
+    color: white;
+    font-size: 200%;
+}
+
+.btn-full:hover {
+    background-color: #E2C9BE !important;
+    color: #633347 !important;
+}
+
+.btn-ghost:hover {
+    background-color: #633347 !important;
+    color: #E2C9BE !important;
+    border: none !important;
+}
+
+
+/* FOOTER ***************/
+footer {
+    background-color: #59511E;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive; 
+}
+
+.socialmedia-item i:hover {
+    color: white;
+}
+
+.socialmedia-item i {
+    color: #E2C9BE;
+    margin: 8px;
+}
